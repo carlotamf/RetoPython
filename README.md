@@ -22,3 +22,17 @@ A diferencia de Python, los bloques de código se delimitan con llaves; {}
 
 ¿Qué parte de la lógica se mantiene igual? -->
 <!-- - La parte lógica es igual -->
+
+BUCLES
+
+public class Bucles {
+    public static void main(String[] args) {
+
+        String[] nombres = {"Ana", "Pedro", "Lucía"};
+
+        for (String nombre : nombres) {
+            System.out.println("Hola " + nombre);
+        }
+
+    }
+}
